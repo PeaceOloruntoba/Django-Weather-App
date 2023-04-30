@@ -4,7 +4,7 @@
     {
       "src": "weather/wsgi.py"
       "use": "@vercel/python",
-      "config": { "maxlambdaSize": "15ab", "runtime": "python3.9" }
+      "config": { "maxlambdaSize": "15mb", "runtime": "python3.9" }
     },
     {
       "src": "build_files.sh"
